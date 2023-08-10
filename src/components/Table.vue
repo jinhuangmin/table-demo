@@ -74,5 +74,8 @@ const tableData = reactive([
     }
     tableData.push({name:nameInput.value,age:ageInput.value,address:addressInput.value})
     centerDialogVisible.value=false;
+    nameInput.value='';
+    ageInput.value='';
+    addressInput.value='';
   }
 </script>
